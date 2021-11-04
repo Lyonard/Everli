@@ -49,7 +49,7 @@ def coverage():
     sorted = []
     for shopper in shoppers:
         if(shopper['enabled']):
-            sorted.append( { 'id': shopper['id'], 'coverage': shopper_coverage(shopper['lng'], shopper['lat']) })
+            sorted.append( { 'shopper_id': shopper['id'], 'coverage': shopper_coverage(shopper['lng'], shopper['lat']) })
 
     sorted.sort(key=lambda x: x['coverage'], reverse=True)
     return sorted
