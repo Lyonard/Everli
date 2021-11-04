@@ -53,4 +53,3 @@ def coverage():
 
     sorted.sort(key=lambda x: x['coverage'], reverse=True)
     return sorted
-
