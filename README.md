@@ -15,6 +15,6 @@ I've implemented a decimal version that converts the number into a binary string
 
 If that's not what you want, I hope we will be able to talk about an alternative solution in a call :) 
 
-###Task 3
+### Task 3
 Please be merciful, Python is not (yet) my language :) 
 Also, I didn't get if you wanted me to implement the haversine function, so I took the easiest approach and asked Google :) 
